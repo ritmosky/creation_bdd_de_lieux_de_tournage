@@ -1,0 +1,11 @@
+=INDEX( $lieu.E:E ; MATCH(1 ; (F2=$lieu.A:A)*(G2=$lieu.B:B) ; 0))
+
+Alternative nécessitant moins de temps de calcul (ne fonctionne que si l'unicité de la clé primaire a été rigoureusement vérifiée) :
+=SUMIFS( $lieu.E:E ; $lieu.A:A ; "="&F2 ; $lieu.B:B ; "="&G2 )
+
+Pour adapter ces formules, remplacer :
+- $lieu.E:E 	par l'emplacement de la colonne "id_localisation" (ici, colonne E de la feuille "lieu")
+- $lieu.A:A	par l'emplacement de la colonne "localisation_de_la_scene" (ici, colonne A de la feuille "lieu")
+- $lieu.B:B	par l'emplacement de la colonne "code_postal" (ici, colonne B de la feuille "lieu")
+- F2		par l'emplacement dans la feuille "donnes_origine" de la cellule contenant la première localisation de scène (ici cellule F2 de la feuille "donnes_origine")
+- G2		par l'emplacement dans la feuille "donnes_origine" de la cellule contenant le premier code postal (ici cellule G2 de la feuille "donnes_origine")

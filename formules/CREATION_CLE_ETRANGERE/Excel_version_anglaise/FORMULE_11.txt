@@ -1,0 +1,6 @@
+=INDEX( periode!E:E , MATCH(1 , (E2=periode!A:A)*(F2=periode!B:B)*(C2=periode!C:C) , 0))
+
+Alternative nécessitant moins de temps de calcul (ne fonctionne que si l'unicité de la clé primaire a été rigoureusement vérifiée) :
+=SUMIFS( periode!E:E , periode!A:A ,"="&E2 , periode!B:B , "="&F2 , periode!C:C , "="&C2)
+ 
+Pour adapter cette formule, vous baser sur l'explication donnée en dessous de la formule 3

@@ -1,0 +1,81 @@
+=REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+
+LOWER(E2);
+
+"[àáâãäå]";				"a";		"g");
+"[ç]";					"c";		"g");
+"[èéêë]";				"e";		"g");
+"[ìíîï]";				"i";		"g");
+"[òóôõö]";				"o";		"g");
+"[ùúûü]";				"u";		"g");
+"[ýÿ]";				"y";		"g");
+"\(.*\)";				"";		"g");
+"d' ";					"d'";		"g");
+"/[0-9][0-9].*$";			"";		"g");
+"(/[a 0-9]*$|[/-]? ?s[1-9] .*)";	"";		"g");
+"[/-]? ?s[1-9].?.?$";			"";		"g");
+"e[0-9][0-9][0-9]-[0-9].*$";		"";		"g");
+"[0-9][0-9]?/[0-9][0-9]? *$";		"";		"g");
+"[/-]? ?s[0-9][0-9]$";			"";		"g");
+"e\?";					"e ?";		"g");
+"( - .*|^sas  ?| ?c/o.*$)";		"";		"g");
+" ?/.*$";				"";		"g");
+"productions?";			"";		"g");
+"films services?";			"prodexe";	"g");
+"autentic";				"authentic";	"g");
+"novoprod cinema";			"novoprod";	"g");
+"exilene films";			"exilene";	"g");
+"myfantasy";				"my fantasy";	"g");
+"koro films";				"koro film";	"g");
+"ifilmrance";				"ifilmfrance";	"g");
+"a single man";			"single man";	"g");
+"my box";				"mybox";	"g");
+"beauboug";				"beaubourg";	"g");
+"(jla|exilene)";			"jla-group";	"g");
+"europa corp";				"europacorp";	"g"); 
+"hellot lysiane";			"barjac";	"g"); 
+"cine science";			"mica films";	"g"); 
+" chez gaumont";			"";		"g");
+"premiere annee additif";		"";		"g");
+" bin?g bang";				"";		"g");
+"( sas$| eem$)";			"";		"g");
+"  *";					" ";		"g");
+" *$";					"";		"g")

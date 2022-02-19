@@ -1,0 +1,6 @@
+=INDEX( oeuvre!D:D , MATCH(1 , (C2=oeuvre!B:B)*(E2=oeuvre!C:C) , 0))
+
+Alternative nécessitant moins de temps de calcul (ne fonctionne que si l'unicité de la clé primaire a été rigoureusement vérifiée) :
+=SUMIFS( oeuvre!D:D , oeuvre!B:B , "="&C2 , oeuvre!C:C , "="&E2)
+
+Pour adapter cette formule, vous baser sur l'explication donnée en dessous de la formule 3

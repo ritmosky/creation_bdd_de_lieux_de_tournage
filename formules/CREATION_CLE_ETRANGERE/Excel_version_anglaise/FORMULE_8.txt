@@ -1,0 +1,8 @@
+=IFERROR( VLOOKUP ( C2 , societe_prod!A:B , 2 ) , "")
+
+Comme la clé primaire ne contient qu'une colonne, on peut utiliser cette formule plus simple que les précédentes.
+
+Pour adapter cette formule, remplacer :
+- C2			par l'emplacement dans la feuille "oeuvre" de la cellule contenant la première société de production (ici cellule C2 de la feuille "oeuvre")
+- societe_prod!A:B	par l'ensemble de la feuille societe_prod (les données dans cette feuilles sont contenues dans les colonnes A à B)
+- 2			par la position dans la feuille societe_prod de la colonne "id_societe_prod" (ici, 2eme colonne de la feuille "societe_prod", soit la colonne B)

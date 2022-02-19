@@ -1,0 +1,81 @@
+=REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+REGEX(
+
+LOWER(E2),
+
+"[àáâãäå]",				"a"),
+"[ç]",					"c"),
+"[èéêë]",				"e"),
+"[ìíîï]",				"i"),
+"[òóôõö]",				"o"),
+"[ùúûü]",				"u"),
+"[ýÿ]",				"y"),
+"\(.*\)",				""),
+"d' ",					"d'"),
+"/[0-9][0-9].*$",			""),
+"(/[a 0-9]*$|[/-]? ?s[1-9] .*)",	""),
+"[/-]? ?s[1-9].?.?$",			""),
+"e[0-9][0-9][0-9]-[0-9].*$",		""),
+"[0-9][0-9]?/[0-9][0-9]? *$",		""),
+"[/-]? ?s[0-9][0-9]$",			""),
+"e\?",					"e ?"),
+"( - .*|^sas  ?| ?c/o.*$)",		""),
+" ?/.*$",				""),
+"productions?",			""),
+"films services?",			"prodexe"),
+"autentic",				"authentic"),
+"novoprod cinema",			"novoprod"),
+"exilene films",			"exilene"),
+"myfantasy",				"my fantasy"),
+"koro films",				"koro film"),
+"ifilmrance",				"ifilmfrance"),
+"a single man",			"single man"),
+"my box",				"mybox"),
+"beauboug",				"beaubourg"),
+"(jla|exilene)",			"jla-group"),
+"europa corp",				"europacorp"), 
+"hellot lysiane",			"barjac"), 
+"cine science",			"mica films"), 
+" chez gaumont",			""),
+"premiere annee additif",		""),
+" bin?g bang",				""),
+"( sas$| eem$)",			""),
+"  *",					" "),
+" *$",					"")

@@ -1,0 +1,5 @@
+=SIERREUR( RECHERCHEV ( D2 ; realisateur_ice!A:B ; 2 ) ; "")
+
+Comme la clé primaire ne contient qu'une colonne, on peut utiliser cette formule plus simple que les précédentes.
+
+Pour adapter cette formule, vous baser sur l'explication donnée en dessous de la formule 8
